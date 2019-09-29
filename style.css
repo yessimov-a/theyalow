@@ -104,6 +104,7 @@ h1, ul {
 }
 
 /* </header> */
+
 /* <welcome-section> */
 .welcome-section-wrapper {
     margin-top: -112px;
@@ -149,3 +150,40 @@ h1, ul {
     background: #c5a00c;
 }
 /* </welcome-section> */
+
+/* <icon-section> */
+.icon-section {
+    display: flex;
+    height: 212px;
+}
+.icon-section-wrapper {
+    background: url(./assets/img/icons-bg.png) center;
+    width: 100%;
+    box-shadow: 0px -2px 7px black;
+}
+.icon-section figure {
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+}
+.icon-section figure:first-child {
+    border-left: 1px solid #0000004a;
+    border-right: 1px solid #0000004a;
+}
+.icon-section figure:last-child {
+    border-left: 1px solid #0000004a;
+    border-right: 1px solid #0000004a;
+}
+figcaption {
+    margin-bottom: 32px;
+    font-family: 'Segoe', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    text-transform: uppercase;
+    margin-left: 19px;
+    margin-top: 9px;
+}
+/* </icon-section> */
