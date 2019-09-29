@@ -187,3 +187,209 @@ figcaption {
     margin-top: 9px;
 }
 /* </icon-section> */
+
+/* <scroll-section> */
+.scroll-section-wrapper {
+    width: 100%; 
+    padding-top: 30px;
+    background: url(./assets/img/scroll-bg.png) repeat;
+    background-size: cover;
+}
+h3,p {
+    margin: 0;
+}
+h2 {
+    margin: 0 0 32px 0;
+    margin-bottom: 32px;
+    font-size: 37px;
+    font-family: "PTSans";
+    font-weight: 200;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+.scroll {
+    display: flex;
+}
+
+.text {
+    width: 311px;
+    height: 216px;
+    padding-top: 16px;
+    padding-left: 30px;
+    font-size: 29px;
+    line-height: 1.308;
+    text-align: left; 
+    font-family: "Segoe";
+    background: #f09f07;
+    color: rgb(255, 255, 255);
+}
+.share {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 331px;
+    height: 232px;
+    margin-left: auto;
+    background: #f09f07;
+}
+
+.tooltip {
+    position: relative;
+    top: 31px;
+    left: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 112px;
+    height: 86px;
+    background: #ddb101;
+}
+.tooltip h3 {
+    margin: 11px 0 3px 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 51px;
+    line-height: 81%;
+    color: #fff;
+}
+.tooltip p {
+    margin-left: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #bd7b20;
+}
+
+.scroll-item button {
+    position: relative;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background: inherit;
+    color: #fff;
+}
+.text button {
+    top: -95px;
+    left: 278px;
+}
+.number {
+    position: relative;
+    top: 11px;
+    left: 133px;
+    font-family: "Segoe";
+    font-size: 25px;
+    color: #fff;
+}
+.share button {
+    top: -4px;
+    left: 149px;
+}
+.share img {
+    margin-top: 10px;
+}
+input[type=range] {
+    -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+    width: 90%; /* Specific width is required for Firefox. */
+    background: transparent; /* Otherwise white in Chrome */
+    margin-left: 5%;
+    margin-top: 126px;
+    margin-bottom: 22px;
+  }
+  
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+  }
+  
+  input[type=range]:focus {
+    outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+  }
+  
+  input[type=range]::-ms-track {
+    width: 90%;
+    cursor: pointer;
+    margin-left: 5%;
+    /* Hides the slider so custom styles can be added */
+    background: transparent; 
+    border-color: transparent;
+    color: transparent;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 15px;
+    width: 197px;
+    border-radius: 7.5px;
+    border: none;
+    background: #ec9e03;
+    cursor: pointer;
+  }
+  
+  /* All the same stuff for Firefox */
+  input[type=range]::-moz-range-thumb {
+    height: 15px;
+    width: 197px;
+    border-radius: 7.5px;
+    border: none;
+    background: #ec9e03;
+    cursor: pointer;
+  }
+  
+  /* All the same stuff for IE */
+  input[type=range]::-ms-thumb {
+    height: 15px;
+    width: 197px;
+    border-radius: 7.5px;
+    border: none;
+    background: #ec9e03;
+    cursor: pointer;
+  }
+
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 15xpx;
+    cursor: pointer;
+    background: #fbe798;
+    border-radius: 7.5px;
+  }
+  
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #fbe798;
+  }
+  
+  input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 15px;
+    cursor: pointer;
+    background: #fbe798;
+    border-radius: 7.5px;
+  }
+  
+  input[type=range]::-ms-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    border-width: 16px 0;
+    color: transparent;
+  }
+  input[type=range]::-ms-fill-lower {
+    width: 100%;
+    height: 15px;
+    cursor: pointer;
+    background: #fbe798;
+    border-radius: 7.5px;
+  }
+  input[type=range]:focus::-ms-fill-lower {
+    background: #fbe798;
+  }
+  input[type=range]::-ms-fill-upper {
+    background: #fbe798;
+    border-radius: 7.5px;
+  }
+  input[type=range]:focus::-ms-fill-upper {
+    background: #fbe798;
+  }
+  .share-form {
+      display: none;
+  }
+  /* </scroll-section> */
