@@ -1,22 +1,22 @@
 @font-face {
     font-family: "Lucida Sans";
-    src: url(./accems/fonts/PTC55F.ttf);
+    src: url(./assets/fonts/PTC55F.ttf);
 }
 @font-face {
     font-family: "Segoe";
-    src: url(./accems/fonts/segoe-wp-light.ttf);
+    src: url(./assets/fonts/segoe-wp-light.ttf);
 }
 @font-face {
     font-family: 'Asap';
-    src: url(./accems/fonts/Asap-Regular.otf);
+    src: url(./assets/fonts/Asap-Regular.otf);
 }
 @font-face {
     font-family: "OpenSans";
-    src: url(./accems/fonts/Asap-Regular.otf);
+    src: url(./assets/fonts/Asap-Regular.otf);
 }
 @font-face {
     font-family: 'PTSans';
-    src: url(./accems/fonts/PTS55F.ttf);
+    src: url(./assets/fonts/PTS55F.ttf);
 }
 body {
     margin: 0;
@@ -29,6 +29,7 @@ h1, ul {
     max-width: 1020px;
     margin: auto;
 }
+/* <header> */
 .logo {
     display: flex;
     align-items: center;
@@ -37,7 +38,7 @@ h1, ul {
 .logo h1 {
     margin-top: 9px;
     margin-left: 3px;
-    font-family: "Lucida Sans", "Tahoma" sans-serif;
+    font-family: "Lucida Sans", sans-serif;
     font-size: 42px;
     font-style: italic;
     font-weight: 100;
@@ -101,3 +102,50 @@ h1, ul {
     text-decoration: none;
     color: #a78708;
 }
+
+/* </header> */
+/* <welcome-section> */
+.welcome-section-wrapper {
+    margin-top: -112px;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 67px;
+    padding-top: 164px;
+    background: url(./assets/img/header-bg.png) no-repeat;
+    background-size: cover;
+}
+.welcome-section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.welcome-section video {
+    max-width: 557px;
+    margin-left: 5px;
+}
+.welcome-section h1 {
+    margin-bottom: 29px;
+    margin-left: 41px;
+    text-align: center;
+    font-family: "Asap";
+    font-size: 62px;
+    font-weight: 100; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.welcome-span {
+    color: #f5c506;
+}
+
+.welcome-section-wrapper button {
+    width: 32px;
+    height: 57px;
+    margin-bottom: 7px;
+    padding-right: 9px;
+    border: none;
+    background: #c5a00c;
+}
+/* </welcome-section> */
